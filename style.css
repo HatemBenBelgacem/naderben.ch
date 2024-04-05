@@ -229,7 +229,24 @@ section h1{
 	flex-direction: row;
 	height: 500px;
 }
-#about .grid-container div {
+#about .grid-container #intro_text {
+
 	width: 50%;
 	padding:15px;
+	height: 800px;
+}
+
+#about .grid-container #img_naderben {
+
+	width: 50%;
+	height: 800px;
+	overflow: hidden;
+}
+#about .grid-container img {
+	padding: 0;
+	min-height: auto;
+	min-width: 100%;
+	object-fit: cover;
+	object-position: center top;
+	
 }
