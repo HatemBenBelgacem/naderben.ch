@@ -1,117 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nader Ben</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onepager Webseite</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<nav id="navbar">
-  <div class="nav-container">
-    <ul>
-      <li>
-        <a href="#home">HOME</a>
-      </li>
-      <li>
-        <a href="#about">ABOUT</a>
-      </li>
-      <li>
-        <a href="#works">WORKS</a>
-      </li>
-      <li>
-        <a href="#contact">CONTACT</a>
-      </li>
-    </ul>
-  </div>
-</nav>
 <body>
- 
-  <section id="home">
-    <h1 class="title">Nader Ben</h1>
-    <h3 class="subtitle">Video and Foto production</h3>
-    <img src="img/naderben01.jpeg" alt="title_pic">
-  </section>
-  <section id="about">
-    <h1>ABOUT ME</h1>
-    <div class="grid-container">
-      <div class="grid-item" id="img_naderben">
-        <img src="img/camera-7726802_1920.jpg" alt="" height="300px">
+    <header>
+        <div class="logo">Firmenlogo</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#services">Dienstleistungen</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Kundenmeinungen</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
 
-      </div>
-      <div class="grid-item" id="intro_text">
-        <h3>Herzlich willkommen!</h3>
-        <p>Ich bin Nader Ben Belgacem, ein leidenschaftlicher Video- und Fotograf mit vier Jahren intensiver
-          Berufserfahrung. In meiner Arbeit vereine ich Kreativität, technisches Know-how und eine unermüdliche Hingabe, um
-          Momente einzufangen und Geschichten zu erzählen, die Menschen berühren.<br>
-        
-          Seit meinen Anfängen in der Branche habe ich mich kontinuierlich weiterentwickelt und mein Handwerk verfeinert. Ich
-          habe an zahlreichen Projekten gearbeitet, von Hochzeiten über Firmenevents bis hin zu künstlerischen Fotoshootings.
-          Diese Vielfalt hat mir wertvolle Einblicke und Fähigkeiten vermittelt, die es mir ermöglichen, mich jedem Auftrag mit
-          Professionalität und Begeisterung zu widmen.<br>
-        
-          Was mich als Fotograf und Videograf auszeichnet, ist meine Fähigkeit, mich in die Situation einzufühlen und eine
-          vertrauensvolle Atmosphäre zu schaffen. Ich glaube fest daran, dass die besten Aufnahmen entstehen, wenn sich meine
-          Kunden wohl und entspannt fühlen. Deshalb arbeite ich eng mit ihnen zusammen, höre auf ihre Wünsche und gebe mein
-          Bestes, um ihre Visionen zum Leben zu erwecken.<br>
-        
-          Kontaktieren Sie mich gerne, um mehr über meine Arbeit zu erfahren oder um Ihr nächstes Projekt zu besprechen. Ich freue
-          mich darauf, mit Ihnen zusammenzuarbeiten und Ihre Geschichte zu erzählen.</p>
-      </div>
-    </div>
+    <section id="hero">
+        <h1>Willkommen bei [Firmenname]</h1>
+        <h2>Ihr Slogan hier</h2>
+        <a href="#contact" class="cta-button">Kontaktieren Sie uns</a>
+    </section>
 
-  </section>
-  <section id="works">
-    <h1>WORKS</h1>
-    <div class="grid-container">
-      <div class="grid-item"><video height="250px" width="250px" autoplay muted><source src="video/199294-909903183.mp4" type="video/mp4"></video></div>
-      <div class="grid-item"><img src="img/camera01.jpg" height="250px" width="250px" alt=""></div>
-      <div class="grid-item"><video height="250px" width="250px" autoplay muted><source src="video/199294-909903183.mp4" type="video/mp4"></video></div>
-      <div class="grid-item"><img src="img/camera01.jpg" height="250px" width="250px" alt=""></div>
-      <div class="grid-item"><video height="250px" width="250px" autoplay muted><source src="video/199294-909903183.mp4" type="video/mp4"></video></div>
-      <div class="grid-item"><img src="img/camera01.jpg" height="250px" width="250px" alt=""></div>
-      <div class="grid-item"><video height="250px" width="250px" autoplay muted><source src="video/199294-909903183.mp4" type="video/mp4"></video></div>
-      <div class="grid-item"><img src="img/camera01.jpg" height="250px" width="250px" alt=""></div>
-      <div class="grid-item"><video height="250px" width="250px" autoplay muted><source src="video/199294-909903183.mp4" type="video/mp4"></video></div>
-    </div>
-  </section>
-  <section id="contact">
-    <h1>CONTACT</h1>
-    <div class="grid-container">
-      <div class="information">
-        <h3>Kontaktinformationen</h3>
-        <p>Nader Ben Belgacem<br>Tel: +41 (0)79 259 15 02<br>E-Mail: naderben@hotmail.com</p>
-        <p></p>
-      </div>
-      <div class="formula">
-        <h3>Kontaktanfrage</h3>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Vorname</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1">
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>Informationen über Ihr Unternehmen...</p>
+        <img src="team.jpg" alt="Unser Team">
+    </section>
+
+    <section id="services">
+        <h2>Unsere Dienstleistungen</h2>
+        <div class="service">
+            <h3>Dienstleistung 1</h3>
+            <p>Beschreibung der Dienstleistung 1...</p>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Nachname</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1">
+        <div class="service">
+            <h3>Dienstleistung 2</h3>
+            <p>Beschreibung der Dienstleistung 2...</p>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">E-Mailadresse</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1">
+    </section>
+
+    <section id="portfolio">
+        <h2>Unsere Arbeiten</h2>
+        <div class="project">
+            <img src="projekt1.jpg" alt="Projekt 1">
+            <p>Beschreibung des Projekts 1...</p>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Nachricht</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="project">
+            <img src="projekt2.jpg" alt="Projekt 2">
+            <p>Beschreibung des Projekts 2...</p>
         </div>
-        <div class="mb-3">
-          <input class="btn btn-primary" type="submit" value="Submit">
+    </section>
+
+    <section id="testimonials">
+        <h2>Kundenmeinungen</h2>
+        <blockquote>
+            <p>"Tolle Zusammenarbeit!"</p>
+            <footer>- Kunde 1, Position</footer>
+        </blockquote>
+        <blockquote>
+            <p>"Sehr zufrieden mit dem Ergebnis!"</p>
+            <footer>- Kunde 2, Position</footer>
+        </blockquote>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Nachricht</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Absenden</button>
+        </form>
+        <p>Telefon: +49 123 456 789</p>
+        <p>Email: info@firmenname.de</p>
+        <p>Adresse: Musterstraße 1, 12345 Musterstadt</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Firmenname. Alle Rechte vorbehalten.</p>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#services">Dienstleistungen</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#testimonials">Kundenmeinungen</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
         </div>
-      </div>
-    </div>  
-  </section>
+    </footer>
 </body>
-
 </html>
